@@ -7,6 +7,7 @@ $ cat .gitigore
 .project
 .settings
 /code/test.java
+AlgoMenu.md
 
 # MacOS store file
 *.DS_Store
