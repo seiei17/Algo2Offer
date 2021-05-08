@@ -1,2 +1,2 @@
 # OfferInterview
-剑指offer笔记。
+算法笔记。

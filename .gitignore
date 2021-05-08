@@ -1,3 +1,13 @@
+##ignore this file##
+$ cat .gitigore
+/.idea/
+/out/
+/target/
+.classpath
+.project
+.settings
+/code/test.java
+
 # MacOS store file
 *.DS_Store
 
