@@ -1,6 +1,11 @@
+package algo.sword2offer.Q06;
+
+import algo.utils.list.defination.ListNode;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Stack;
+
 
 public class Solution06 {
 

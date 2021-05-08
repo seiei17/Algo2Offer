@@ -1,3 +1,7 @@
+package algo.utils.tree;
+
+import algo.utils.tree.definition.TreeNode;
+
 import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
@@ -7,7 +11,7 @@ import java.util.stream.Collectors;
 public class TreeUtils {
 
 
-    //**********TreeNode*********//
+    //**********algo.utils.tree.definition.TreeNode*********//
     //----------traverse---------//
     public static void printPreorder(TreeNode root) {
         if (root == null) return;

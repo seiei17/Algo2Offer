@@ -1,3 +1,5 @@
+package algo.sword2offer.Q03;
+
 public class Solution03 {
     // 题目1 解法3：
     public int findRepeatNumber(int[] nums) {

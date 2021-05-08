@@ -1,3 +1,5 @@
+package algo.sword2offer.Q04;
+
 public class Solution04 {
     public boolean findNumberIn2DArray(int[][] matrix, int target) {
         if (matrix == null) return false;

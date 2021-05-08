@@ -1,3 +1,5 @@
+package algo.sword2offer.Q05;
+
 public class Solution05 {
     public String replaceSpace(String s) {
         StringBuilder sb = new StringBuilder();
