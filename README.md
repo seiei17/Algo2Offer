@@ -34,6 +34,17 @@
 
 * [2.Two Sum II - Input array is sorted](seiei/algo/专项算法/双指针专题/2_Two_Sum_II.md)
 
+* [3.Two Sum III - Data structure design](seiei/algo/专项算法/双指针专题/3_Two_Sum_III.md)
+
+* [4.3Sum](seiei/algo/专项算法/双指针专题/4_3Sum.md)
+
+* [5.3Sum Closest](seiei/algo/专项算法/双指针专题/5_3Sum_Closest.md)
+
+* [6.3Sum Smaller](seiei/algo/专项算法/双指针专题/6_3Sum_Smaller.md)
+
+* [7.4Sum](seiei/algo/专项算法/双指针专题/7.4Sum.md)
+
+
 * [11.Move Zeroes](seiei/algo/专项算法/双指针专题/11_Move_Zeroes.md)
 
 
@@ -42,6 +53,12 @@
 * [1.Two Sum](seiei/algo/专项算法/双指针专题/1_Two_Sum.md)
 
 * [2.Add Two Numbers](seiei/algo/专项算法/链表专题/1_Add_Two_Numbers.md)
+
+* [15.3Sum](seiei/algo/专项算法/双指针专题/4_3Sum.md)
+
+* [16.3Sum Closest](seiei/algo/专项算法/双指针专题/5_3Sum_Closest.md)
+
+* [18.4Sum](seiei/algo/专项算法/双指针专题/7.4Sum.md)
 
 * [21.Merge Two Sorted Lists](seiei/algo/专项算法/链表专题/6_Merge_Two_Sorted_Lists.md)
 
@@ -52,5 +69,9 @@
 * [142.Linked List Cycle II](seiei/algo/专项算法/链表专题/10_Linked_List_Cycle_II.md)
 
 * [167.Two Sum II - Input array is sorted](seiei/algo/专项算法/双指针专题/2_Two_Sum_II.md)
+
+* [170.Two Sum III - Data structure design](seiei/algo/专项算法/双指针专题/3_Two_Sum_III.md)
+
+* [259.3Sum Smaller](seiei/algo/专项算法/双指针专题/6_3Sum_Smaller.md)
 
 * [283.Move Zeroes](seiei/algo/专项算法/双指针专题/11_Move_Zeroes.md)
