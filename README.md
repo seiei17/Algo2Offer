@@ -44,6 +44,11 @@
 
 * [7.4Sum](seiei/algo/专项算法/双指针专题/7.4Sum.md)
 
+* [8.Longest SubString Without Repeating Characters(重点)](seiei/algo/专项算法/双指针专题/8_Longest_SubString_Without_Repeating_Characters.md)
+
+* [9.Longest SubString with At Most Two Distinct Characters(重点)](seiei/algo/专项算法/双指针专题/9_Longest_SubString_with_At_Most_Two_Distinct_Characters.md)
+
+* [10.Merge Sorted Array](seiei/algo/专项算法/双指针专题/10_Merge_Sorted_Array.md)
 
 * [11.Move Zeroes](seiei/algo/专项算法/双指针专题/11_Move_Zeroes.md)
 
@@ -53,6 +58,8 @@
 * [1.Two Sum](seiei/algo/专项算法/双指针专题/1_Two_Sum.md)
 
 * [2.Add Two Numbers](seiei/algo/专项算法/链表专题/1_Add_Two_Numbers.md)
+
+* [3.Longest SubString Without Repeating Characters](seiei/algo/专项算法/双指针专题/8_Longest_SubString_Without_Repeating_Characters.md)
 
 * [15.3Sum](seiei/algo/专项算法/双指针专题/4_3Sum.md)
 
@@ -64,9 +71,13 @@
 
 * [23.Merge K Sorted Lists](seiei/algo/专项算法/链表专题/7_Merge_k_Sorted_Lists.md)
 
+* [88.Merge Sorted Array](seiei/algo/专项算法/双指针专题/10_Merge_Sorted_Array.md)
+
 * [141.Linked List Cycle](seiei/algo/专项算法/链表专题/9_Linked_List_Cycle.md)
 
 * [142.Linked List Cycle II](seiei/algo/专项算法/链表专题/10_Linked_List_Cycle_II.md)
+
+* [159.Longest SubString with At Most Two Distinct Characters](seiei/algo/专项算法/双指针专题/9_Longest_SubString_with_At_Most_Two_Distinct_Characters.md)
 
 * [167.Two Sum II - Input array is sorted](seiei/algo/专项算法/双指针专题/2_Two_Sum_II.md)
 

@@ -1,24 +1,14 @@
 package algo;
 
-import java.util.Arrays;
+import java.util.*;
 
 class Solution {
-    public int threeSumSmaller(int[] nums, int target) {
-        int len = nums.length;
-        int count = 0;
-        Arrays.sort(nums);
-        for (int i = 0; i < len - 2; i ++) {
-            if (nums[i] + nums[i + 1] + nums[i + 2] >= target) break;
-            int low = i + 1, high = len - 1;
-            while (low < high) {
-                int sum = nums[i] + nums[low] + nums[high];
-                if (sum >= target) high --;
-                else {
-                    count += high - low;
-                    low ++;
-                }
-            }
+    public void merge(int[] nums1, int m, int[] nums2, int n) {
+        int i = m - 1, j = n - 1;
+        int cursor = m + n - 1;
+        while (i >= 0 && j >= 0) {
+            nums1[cursor --] = nums1[i] > nums2[j]? nums1[i --]: nums2[j --];
         }
-        return count;
+        while (j >= 0) nums1[cursor --] = nums2[j --];
     }
 }
