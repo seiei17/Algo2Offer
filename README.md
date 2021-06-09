@@ -52,6 +52,34 @@
 
 * [11.Move Zeroes](seiei/algo/专项算法/双指针专题/11_Move_Zeroes.md)
 
+##### ♦ 字符串专题
+* [1.Compare Version Numbers](seiei/algo/专项算法/字符串专题/1_Compare_Version_Numbers.md)
+
+* [2.Count and Say](seiei/algo/专项算法/字符串专题/2_Count_and_Say.md)
+
+* [3.Distinct Subsequences](seiei/algo/专项算法/字符串专题/3_Distinct_Subsequences.md)
+
+* [4.Edit Distance](seiei/algo/专项算法/字符串专题/4_Edit_Distance.md)
+
+* [5.One Edit Distance](seiei/algo/专项算法/字符串专题/5_One_Edit_Distance.md)
+
+* [6.Flip Game](seiei/algo/专项算法/字符串专题/6_Flip_Game.md)
+
+* [7.Flip Game II](seiei/algo/专项算法/字符串专题/7_Flip_Game_II.md)
+
+* [8.Interleaving String](seiei/algo/专项算法/字符串专题/8_Interleaving_String.md)
+
+* [9.Length of Last Word](seiei/algo/专项算法/字符串专题/9_Length_of_Last_Word.md)
+
+* [10.Longest Common Prefix](seiei/algo/专项算法/字符串专题/10_Longest_Common_Prefix.md)
+
+* [11.Reverse Words in a String](seiei/algo/专项算法/字符串专题/11_Reverse_Words_in_a_String.md)
+
+* [12.Reverse Words in a String II](seiei/algo/专项算法/字符串专题/12_Reverse_Words_in_a_String_II.md)
+
+##### ♦ 数学类专题
+
+* [1.Add Binary--大整数加法!!!](seiei/algo/专项算法/数学类专题/1_Add_Binary_大整数加法!!!.md)
 
 ### Leetcode及其解析
 
@@ -60,6 +88,8 @@
 * [2.Add Two Numbers](seiei/algo/专项算法/链表专题/1_Add_Two_Numbers.md)
 
 * [3.Longest SubString Without Repeating Characters](seiei/algo/专项算法/双指针专题/8_Longest_SubString_Without_Repeating_Characters.md)
+
+* [14.Longest Common Prefix](seiei/algo/专项算法/字符串专题/10_Longest_Common_Prefix.md)
 
 * [15.3Sum](seiei/algo/专项算法/双指针专题/4_3Sum.md)
 
@@ -71,18 +101,42 @@
 
 * [23.Merge K Sorted Lists](seiei/algo/专项算法/链表专题/7_Merge_k_Sorted_Lists.md)
 
+* [38.Count and Say](seiei/algo/专项算法/字符串专题/2_Count_and_Say.md)
+
+* [58.Length of Last Word](seiei/algo/专项算法/字符串专题/9_Length_of_Last_Word.md)
+
+* [67.Add Binary--大整数加法!!!](seiei/algo/专项算法/数学类专题/1_Add_Binary_大整数加法!!!.md)
+
+* [72.Edit Distance](seiei/algo/专项算法/字符串专题/4_Edit_Distance.md)
+
 * [88.Merge Sorted Array](seiei/algo/专项算法/双指针专题/10_Merge_Sorted_Array.md)
+
+* [97.Interleaving String](seiei/algo/专项算法/字符串专题/8_Interleaving_String.md)
+
+* [115.Distinct Subsequences](seiei/algo/专项算法/字符串专题/3_Distinct_Subsequences.md)
 
 * [141.Linked List Cycle](seiei/algo/专项算法/链表专题/9_Linked_List_Cycle.md)
 
 * [142.Linked List Cycle II](seiei/algo/专项算法/链表专题/10_Linked_List_Cycle_II.md)
 
+* [151.Reverse Words in a String](seiei/algo/专项算法/字符串专题/11_Reverse_Words_in_a_String.md)
+
 * [159.Longest SubString with At Most Two Distinct Characters](seiei/algo/专项算法/双指针专题/9_Longest_SubString_with_At_Most_Two_Distinct_Characters.md)
+
+* [161.One Edit Distance](seiei/algo/专项算法/字符串专题/5_One_Edit_Distance.md)
+
+* [161.Compare Version Numbers](seiei/algo/专项算法/字符串专题/1_Compare_Version_Numbers.md)
 
 * [167.Two Sum II - Input array is sorted](seiei/algo/专项算法/双指针专题/2_Two_Sum_II.md)
 
 * [170.Two Sum III - Data structure design](seiei/algo/专项算法/双指针专题/3_Two_Sum_III.md)
 
+* [186.Reverse Words in a String II](seiei/algo/专项算法/字符串专题/12_Reverse_Words_in_a_String_II.md)
+
 * [259.3Sum Smaller](seiei/algo/专项算法/双指针专题/6_3Sum_Smaller.md)
 
 * [283.Move Zeroes](seiei/algo/专项算法/双指针专题/11_Move_Zeroes.md)
+
+* [293.Flip Game](seiei/algo/专项算法/字符串专题/6_Flip_Game.md)
+
+* [294.Flip Game II](seiei/algo/专项算法/字符串专题/7_Flip_Game_II.md)
