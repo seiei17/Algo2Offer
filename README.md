@@ -81,6 +81,18 @@
 
 * [1.Add Binary--大整数加法!!!](seiei/algo/专项算法/数学类专题/1_Add_Binary_大整数加法!!!.md)
 
+##### ♦ 位运算专题
+
+* [1.Single Number II](seiei/algo/专项算法/位运算专题/1_Single_Number_II.md)
+
+* [2.Single Number III](seiei/algo/专项算法/位运算专题/2_Single_Number_III.md)
+
+* [3.Maximum XOR of Two Numbers in an Array](seiei/algo/专项算法/位运算专题/3_Maximum_XOR_of_Two_Numbers_in_an_Array.md)
+
+* [4.Repeated DNA Sequences](seiei/algo/专项算法/位运算专题/4_Repeated_DNA_Sequences.md)
+
+* [5.Maximum Product of Word Lengths](seiei/algo/专项算法/位运算专题/5_Maximum_Product_of_Word_Lengths.md)
+
 ### Leetcode及其解析
 
 * [1.Two Sum](seiei/algo/专项算法/双指针专题/1_Two_Sum.md)
@@ -115,6 +127,8 @@
 
 * [115.Distinct Subsequences](seiei/algo/专项算法/字符串专题/3_Distinct_Subsequences.md)
 
+* [137.Single Number II](seiei/algo/专项算法/位运算专题/1_Single_Number_II.md)
+
 * [141.Linked List Cycle](seiei/algo/专项算法/链表专题/9_Linked_List_Cycle.md)
 
 * [142.Linked List Cycle II](seiei/algo/专项算法/链表专题/10_Linked_List_Cycle_II.md)
@@ -133,10 +147,20 @@
 
 * [186.Reverse Words in a String II](seiei/algo/专项算法/字符串专题/12_Reverse_Words_in_a_String_II.md)
 
+* [187.Repeated DNA Sequences](seiei/algo/专项算法/位运算专题/4_Repeated_DNA_Sequences.md)
+
+* [208.Implement Trie (Prefix Tree)](seiei/algo/leetcode/208_Implement_Trie.md)
+
 * [259.3Sum Smaller](seiei/algo/专项算法/双指针专题/6_3Sum_Smaller.md)
+
+* [260.Single Number III](seiei/algo/专项算法/位运算专题/2_Single_Number_III.md)
 
 * [283.Move Zeroes](seiei/algo/专项算法/双指针专题/11_Move_Zeroes.md)
 
 * [293.Flip Game](seiei/algo/专项算法/字符串专题/6_Flip_Game.md)
 
 * [294.Flip Game II](seiei/algo/专项算法/字符串专题/7_Flip_Game_II.md)
+
+* [318.Maximum Product of Word Lengths](seiei/algo/专项算法/位运算专题/5_Maximum_Product_of_Word_Lengths.md)
+
+* [421.Maximum XOR of Two Numbers in an Array](seiei/algo/专项算法/位运算专题/3_Maximum_XOR_of_Two_Numbers_in_an_Array.md)
