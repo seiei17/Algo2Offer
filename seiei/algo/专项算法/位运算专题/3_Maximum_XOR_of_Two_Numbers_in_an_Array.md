@@ -10,7 +10,9 @@
 
 #### 1. 使用哈希表判断
 
-假设k为当前判断的位数，那么res可以表示为<img src="https://latex.codecogs.com/png.latex? r_{30}r_{29}r_{28}...r_{k+1}r_k...r_{1}r_{0}">，假设已经判断了k以前的位，即<img src="https://latex.codecogs.com/png.latex? r_{30}r_{29}r_{28}...r_{k+1}">已知，那么假设<img src="https://latex.codecogs.com/png.latex? r_k=1">，即当前<img src="https://latex.codecogs.com/png.latex? res=r_{30}r_{29}...r_{k+1}1">。于是，遍历数组，每个num右移k位作为<img src="https://latex.codecogs.com/png.latex? x=x_{30}x_{29}...x_{k+1}x_k">，并存入哈希表。再遍历数组，每个num右移k位作为<img src="https://latex.codecogs.com/png.latex? y=y_{30}y_{29}...y_{k+1}y_k">，再与假设的当前<img src="https://latex.codecogs.com/png.latex? res=r_{30}r_{29}...r_{k+1}1">异或，如果结果在哈希表中，表示x = res ^ y计算成立，则<img src="https://latex.codecogs.com/png.latex? r_k">可以取1；否则取0。
+
+
+假设k为当前判断的位数，那么res可以表示为<img src="https://latex.codecogs.com/svg.latex? r_{30}r_{29}r_{28}...r_{k+1}r_k...r_{1}r_{0}">，假设已经判断了k以前的位，即<img src="https://latex.codecogs.com/svg.latex? r_{30}r_{29}r_{28}...r_{k+1}">已知，那么假设<img src="https://latex.codecogs.com/svg.latex? r_k=1">，即当前<img src="https://latex.codecogs.com/svg.latex? res=r_{30}r_{29}...r_{k+1}1">。于是，遍历数组，每个num右移k位作为<img src="https://latex.codecogs.com/svg.latex? x=x_{30}x_{29}...x_{k+1}x_k">，并存入哈希表。再遍历数组，每个num右移k位作为<img src="https://latex.codecogs.com/svg.latex? y=y_{30}y_{29}...y_{k+1}y_k">，再与假设的当前<img src="https://latex.codecogs.com/svg.latex? res=r_{30}r_{29}...r_{k+1}1">异或，如果结果在哈希表中，表示x = res ^ y计算成立，则<img src="https://latex.codecogs.com/svg.latex? r_k">可以取1；否则取0。
 
 ```java
 class Solution {
