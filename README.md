@@ -4,6 +4,16 @@
 
 ### 笔面试算法题型分类及其解析
 
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+
 ##### ♦ 链表专题
 
 * [1.Add Tow Numbers](seiei/algo/专项算法/链表专题/1_Add_Two_Numbers.md)
