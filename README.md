@@ -53,6 +53,7 @@
 * [11.Move Zeroes](seiei/algo/专项算法/双指针专题/11_Move_Zeroes.md)
 
 ##### ♦ 字符串专题
+
 * [1.Compare Version Numbers](seiei/algo/专项算法/字符串专题/1_Compare_Version_Numbers.md)
 
 * [2.Count and Say](seiei/algo/专项算法/字符串专题/2_Count_and_Say.md)
@@ -80,6 +81,16 @@
 ##### ♦ 数学类专题
 
 * [1.Add Binary--大整数加法!!!](seiei/algo/专项算法/数学类专题/1_Add_Binary_大整数加法!!!.md)
+
+* [2.Plus One(重点!!)](seiei/algo/专项算法/数学类专题/2_Plus_One(重点!!).md)
+
+* [3.Multiply Strings(重点!)--大整数乘法!](seiei/algo/专项算法/数学类专题/3_Multiply_Strings(重点!)--大整数乘法!.md)
+
+* [4.Add Digits(重点!!)](seiei/algo/专项算法/数学类专题/4_Add_Digits(重点!!).md)
+
+* [5.Best Meeting Point](seiei/algo/专项算法/数学类专题/5_Best_Meeting_Point.md)
+
+* [6.Count Primes(重点!!!)](seiei/algo/专项算法/数学类专题/6_Count_Primes(重点!!!).md)
 
 ##### ♦ 位运算专题
 
@@ -115,9 +126,13 @@
 
 * [38.Count and Say](seiei/algo/专项算法/字符串专题/2_Count_and_Say.md)
 
+* [43.Multiply Strings](seiei/algo/专项算法/数学类专题/3_Multiply_Strings(重点!)--大整数乘法!.md)
+
 * [58.Length of Last Word](seiei/algo/专项算法/字符串专题/9_Length_of_Last_Word.md)
 
-* [67.Add Binary--大整数加法!!!](seiei/algo/专项算法/数学类专题/1_Add_Binary_大整数加法!!!.md)
+* [66.Plus One](seiei/algo/专项算法/数学类专题/2_Plus_One(重点!!).md)
+
+* [67.Add Binary](seiei/algo/专项算法/数学类专题/1_Add_Binary_大整数加法!!!.md)
 
 * [72.Edit Distance](seiei/algo/专项算法/字符串专题/4_Edit_Distance.md)
 
@@ -149,7 +164,11 @@
 
 * [187.Repeated DNA Sequences](seiei/algo/专项算法/位运算专题/4_Repeated_DNA_Sequences.md)
 
+* [204.Count Primes(重点!!!)](seiei/algo/专项算法/数学类专题/6_Count_Primes(重点!!!).md)
+
 * [208.Implement Trie (Prefix Tree)](seiei/algo/leetcode/208_Implement_Trie.md)
+
+* [258.Add Digits](seiei/algo/专项算法/数学类专题/4_Add_Digits(重点!!).md)
 
 * [259.3Sum Smaller](seiei/algo/专项算法/双指针专题/6_3Sum_Smaller.md)
 
@@ -161,6 +180,18 @@
 
 * [294.Flip Game II](seiei/algo/专项算法/字符串专题/7_Flip_Game_II.md)
 
+* [296.Best Meeting Point](seiei/algo/专项算法/数学类专题/5_Best_Meeting_Point.md)
+
 * [318.Maximum Product of Word Lengths](seiei/algo/专项算法/位运算专题/5_Maximum_Product_of_Word_Lengths.md)
 
 * [421.Maximum XOR of Two Numbers in an Array](seiei/algo/专项算法/位运算专题/3_Maximum_XOR_of_Two_Numbers_in_an_Array.md)
+
+
+---
+test
+
+$i_a+j_b$
+
+$$
+x^m+y^n
+$$
