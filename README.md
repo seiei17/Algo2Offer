@@ -1,15 +1,3 @@
-<HTML>
-<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
-<script type="text/x-mathjax-config">
-  MathJax.Hub.Config({
-    tex2jax: {
-      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
-      processEscapes: true
-    }
-  });
-</script>
-</HTML>
-
 # Algo2Offer
 
 算法笔记。
@@ -197,13 +185,3 @@
 * [318.Maximum Product of Word Lengths](seiei/algo/专项算法/位运算专题/5_Maximum_Product_of_Word_Lengths.md)
 
 * [421.Maximum XOR of Two Numbers in an Array](seiei/algo/专项算法/位运算专题/3_Maximum_XOR_of_Two_Numbers_in_an_Array.md)
-
-
----
-test
-
-$i_a+j_b$
-
-$$
-x^m+y^n
-$$
