@@ -10,6 +10,7 @@ $ cat .gitigore
 AlgoMenu.md
 *.Solution.java
 *.iml
+/Java应届生算法突击_目录.md
 
 # MacOS store file
 *.DS_Store
