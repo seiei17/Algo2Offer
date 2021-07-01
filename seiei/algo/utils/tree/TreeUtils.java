@@ -20,6 +20,31 @@ public class TreeUtils {
         printPreorder(root.right);
     }
 
+    public static void printInorder(TreeNode root) {
+        if (root == null) return;
+        printInorder(root.left);
+        System.out.print(root.val + " ");
+        printInorder(root.right);
+    }
+
+    //--------reduction--------//
+    /*
+    Reduction a binary tree using preorder and inorder.
+    */
+    public static TreeNode reductionByPreAndInorder(int[] preorder, int[] inorder) {
+        return reduction(preorder, 0, preorder.length - 1, inorder, 0, inorder.length - 1);
+    }
+
+    private static TreeNode reduction(int[] preorder, int preStart, int preEnd, int[] inorder, int inStart, int inEnd) {
+        if (preStart > preEnd) return null;
+        TreeNode root = new TreeNode(preorder[preStart]);
+        int leftLen = inStart;
+        while (leftLen <= inEnd && inorder[leftLen] != root.val) leftLen++;
+        leftLen -= inStart; 
+        root.left = reduction(preorder, preStart + 1, preStart + leftLen, inorder, inStart, inStart + leftLen - 1);
+        root.right = reduction(preorder, preStart + leftLen + 1, preEnd, inorder, inStart + leftLen + 1, inEnd);
+        return root;
+    }
 
     //----------create---------//
     public static TreeNode createByLevel(int[] nums) {

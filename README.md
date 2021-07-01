@@ -81,18 +81,13 @@
 ##### ♦ 数学类专题
 
 * [1.Add Binary--大整数加法!!!](seiei/algo/专项算法/数学类专题/1_Add_Binary_大整数加法!!!.md)
-
 * [2.Plus One(重点!!)](seiei/algo/专项算法/数学类专题/2_Plus_One(重点!!).md)
-
 * [3.Multiply Strings(重点!)--大整数乘法!](seiei/algo/专项算法/数学类专题/3_Multiply_Strings(重点!)--大整数乘法!.md)
-
 * [4.Add Digits(重点!!)](seiei/algo/专项算法/数学类专题/4_Add_Digits(重点!!).md)
-
 * [5.Best Meeting Point](seiei/algo/专项算法/数学类专题/5_Best_Meeting_Point.md)
-
 * [6.Count Primes(重点!!!)](seiei/algo/专项算法/数学类专题/6_Count_Primes(重点!!!).md)
-
 * [7.Divide Two Integers(重点!!!)](seiei/algo/专项算法/数学类专题/7_Divide_Two_Integers(重点!!!).md)
+* [8. Reverse Integer(重点!!!)](seiei/algo/专项算法/数学类专题/8_Reverse_Integer(重点).md)
 
 ##### ♦ 位运算专题
 
@@ -136,6 +131,7 @@
 * [161.One Edit Distance](seiei/algo/专项算法/字符串专题/5_One_Edit_Distance.md)
 * [161.Compare Version Numbers](seiei/algo/专项算法/字符串专题/1_Compare_Version_Numbers.md)
 * [167.Two Sum II - Input array is sorted](seiei/algo/专项算法/双指针专题/2_Two_Sum_II.md)
+* [168. Excel表列名称](seiei/algo/leetcode/168_Excel表列名称.md)
 * [170.Two Sum III - Data structure design](seiei/algo/专项算法/双指针专题/3_Two_Sum_III.md)
 * [186.Reverse Words in a String II](seiei/algo/专项算法/字符串专题/12_Reverse_Words_in_a_String_II.md)
 * [187.Repeated DNA Sequences](seiei/algo/专项算法/位运算专题/4_Repeated_DNA_Sequences.md)
@@ -153,13 +149,24 @@
 * [421.Maximum XOR of Two Numbers in an Array](seiei/algo/专项算法/位运算专题/3_Maximum_XOR_of_Two_Numbers_in_an_Array.md)
 * [483. 最小好进制](seiei/algo/leetcode/493_最小好进制.md)
 * [752. 打开转盘锁](seiei/algo/leetcode/752_打开转盘锁.md)
+* [773. 滑动谜题](seiei/algo/leetcode/773_滑动谜题.md)
 * [1239. 串联字符串的最大长度](seiei/algo/leetcode/1239_串联字符串的最大长度.md)
 * [1600. 皇位继承顺序](seiei/algo/leetcode/1600_皇位继承顺序.md)
+* [1912. 设计电影租借系统](seiei/algo/leetcode/1912_设计电影租借系统.md)
+* [1915. 最美子字符串的数目](seiei/algo/leetcode/1915_最美子字符串的数目.md)
+* [5780. 删除一个元素使数组严格递增](seiei/algo/leetcode/5780_ 删除一个元素使数组严格递增.md)
+* [5781. 删除一个字符串中所有出现的给定子字符串](seiei/algo/leetcode/5781_ 删除一个字符串中所有出现的给定子字符串.md)
+* [5782. 最大子序列交替 和](seiei/algo/leetcode/5782_最大子序列交替和.md)
 * [5788. 字符串中的最大奇数](seiei/algo/leetcode/5788_字符串中的最大奇数.md)
 * [5789. 你完成的完整对局数](seiei/algo/leetcode/5789_你完成的完整对局数.md)
 * [5791. 统计子岛屿](seiei/algo/leetcode/5791_统计子岛屿.md)
 * [5790. 查询差绝对值的最小值](seiei/algo/leetcode/5790_查询差绝对值的最小值.md)
+* [5797. 两个数对之间的最大乘积差](seiei/algo/leetcode/5797_两个数对之间的最大乘积差.md)
+* [5798. 循环轮转矩阵](seiei/algo/leetcode/5798_循环轮转矩阵.md)
+* [LCP 07. 传递信息](seiei/algo/leetcode/LCP_07_传递信息.md)
 
 ### 剑指offer
 
+* [15. 二进制中1的个数](seiei/algo/sword2offer/15_二进制中1的个数.md)
+* [37. 序列化二叉树](seiei/algo/sword2offer/37_序列化二叉树.md)
 * [38. 字符串的排列](seiei/algo/sword2offer/38_字符串的排列.md)

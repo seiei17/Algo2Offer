@@ -3,69 +3,29 @@ package algo;
 import java.util.*;
 
 class Solution {
-    public int openLock(String[] deadends, String target) {
-        if (target.equals("0000")) return 0;
-        Set<String> deads = new HashSet<>();
-        for (String d : deadends) {
-            if (d.equals("0000")) return -1;
-            deads.add(d);
-        }
-        deads.add("0000");
-        PriorityQueue<Astar> queue = new PriorityQueue<>((a, b) -> a.f - b.f);
-        queue.offer(new Astar("0000", target, 0));
-        while (!queue.isEmpty()) {
-            Astar node = queue.poll();
-            for (String status : get(node.status)) {
-                if (!deads.contains(status)) {
-                    if (status.equals(target)) return node.g + 1;
-                    queue.offer(new Astar(status, target, node.g + 1));
-                    deads.add(status);
-                }
+    public long wonderfulSubstrings(String word) {
+        int[] map = new int[1024];
+        map[0] = 1;
+        int mask = 0;
+        long count = 0;
+        for (char c: word.toCharArray()) {
+            mask ^= 1 << c - 'a';
+            count += map[mask];
+            for (int i = 0; i < 10; i++) {
+                count += map[mask ^ 1 << i];
             }
+            map[mask]++;
         }
-        return -1;
+        return count;
     }
 
-    public char numPrev(char x) {
-        return x == '0' ? '9' : (char) (x - 1);
-    }
-
-    public char numSucc(char x) {
-        return x == '9' ? '0' : (char) (x + 1);
-    }
-
-    public List<String> get(String status) {
-        List<String> ret = new ArrayList<String>();
-        char[] array = status.toCharArray();
-        for (int i = 0; i < 4; ++i) {
-            char num = array[i];
-            array[i] = numPrev(num);
-            ret.add(new String(array));
-            array[i] = numSucc(num);
-            ret.add(new String(array));
-            array[i] = num;
+    public static void main(String[] args) {
+        int a = -12;
+        int num = 0;
+        while (a != 0) {
+            num = num * 10 + a % 10;
+            a /= 10;
         }
-        return ret;
-    }
-
-    private class Astar {
-        String status;
-        int f, g, h;
-
-        Astar(String status, String target, int g) {
-            this.status = status;
-            this.g = g;
-            this.h = getH(status, target);
-            this.f = this.g + this.h;
-        }
-
-        private int getH(String status, String target) {
-            int cost = 0;
-            for (int index = 0; index < 4; index++) {
-                int dist = Math.abs(status.charAt(index) - target.charAt(index));
-                cost += Math.min(dist, 10 - dist);
-            }
-            return cost;
-        }
+        System.out.println(num);
     }
 }
