@@ -81,6 +81,7 @@
 * [38.Count and Say](seiei/algo/专项算法/字符串专题/2_Count_and_Say.md)
 * [39. 组合总和](seiei/algo/leetcode/39_组合总和.md)
 * [40. 组合总和II](seiei/algo/leetcode/40_组合总和II.md)
+* [42. 接雨水](seiei/algo/leetcode/42_接雨水.md)
 * [43.Multiply Strings](seiei/algo/专项算法/数学类专题/3_Multiply_Strings(重点!)--大整数乘法!.md)
 * [46. 全排列](seiei/algo/leetcode/46_全排列.md)
 * [58.Length of Last Word](seiei/algo/专项算法/字符串专题/9_Length_of_Last_Word.md)
