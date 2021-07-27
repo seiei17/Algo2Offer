@@ -6,34 +6,27 @@ import java.util.*;
 import java.util.concurrent.CountDownLatch;
 
 public class Solution {
+
     @Test
-    public void test() throws InterruptedException {
-        CountDownLatch countDownLatch = new CountDownLatch(5);
-        for (int i = 0; i < 5; i++) {
-            Thread thread = new Thread(new SynTest(countDownLatch), "Thread + " + i);
-            thread.start();
+    public void test() {
+        String str = "ab(cd(efg)hij)lkm";
+        System.out.println(reverse1(str));
+    }
+
+    public String reverse1(String s) {
+        LinkedList<Character> stack = new LinkedList<>();
+        for (int i = 0; i < s.length(); i++) {
+            char c = s.charAt(i);
+            if (c != ')') stack.push(c);
+            else {
+                LinkedList<Character> list = new LinkedList<>();
+                while (stack.peek() != '(') list.offer(stack.pop());
+                stack.pop();
+                while (!list.isEmpty()) stack.push(list.poll());
+            }
         }
-        countDownLatch.await();
-        System.out.println("Count down");
-
-        List<Integer> list = new ArrayList<>();
         StringBuilder sb = new StringBuilder();
-        sb.deleteCharAt()
-    }
-}
-
-class SynTest implements Runnable {
-
-    private CountDownLatch countDownLatch;
-
-    SynTest(CountDownLatch countDownLatch) {
-        this.countDownLatch = countDownLatch;
-    }
-
-    @Override
-    public void run() {
-        System.out.println(Thread.currentThread() + ": Count Down.");
-        countDownLatch.countDown();
-        System.out.println(Thread.currentThread() + ": Count Over");
+        while (!stack.isEmpty()) sb.append(stack.pollLast());
+        return sb.toString();
     }
 }
