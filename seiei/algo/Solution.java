@@ -2,31 +2,40 @@ package algo;
 
 import org.junit.Test;
 
-import java.util.*;
-import java.util.concurrent.CountDownLatch;
+import java.util.LinkedHashMap;
+import java.util.Map;
 
 public class Solution {
-
     @Test
     public void test() {
-        String str = "ab(cd(efg)hij)lkm";
-        System.out.println(reverse1(str));
+        LRU<Character, Integer> lru = new LRU<>(3);
+        lru.put('M', 1);
+        lru.put('Z', 2);
+        lru.put('C', 3);
+        lru.print();
+        lru.put('X', 4);
+        lru.print();
+        lru.get('Z');
+        lru.put('Y', 5);
+        lru.print();
+    }
+}
+
+class LRU<K, V> extends LinkedHashMap<K, V> {
+    private final int capacity;
+
+    LRU(int initialCapacity) {
+        super(initialCapacity, 0.75f, true);
+        this.capacity = initialCapacity;
     }
 
-    public String reverse1(String s) {
-        LinkedList<Character> stack = new LinkedList<>();
-        for (int i = 0; i < s.length(); i++) {
-            char c = s.charAt(i);
-            if (c != ')') stack.push(c);
-            else {
-                LinkedList<Character> list = new LinkedList<>();
-                while (stack.peek() != '(') list.offer(stack.pop());
-                stack.pop();
-                while (!list.isEmpty()) stack.push(list.poll());
-            }
-        }
-        StringBuilder sb = new StringBuilder();
-        while (!stack.isEmpty()) sb.append(stack.pollLast());
-        return sb.toString();
+    @Override
+    protected boolean removeEldestEntry(Map.Entry<K, V> eldest) {
+        return this.size() > this.capacity;
+    }
+
+    public void print() {
+        for (K key: this.keySet()) System.out.print(key + " ");
+        System.out.println();
     }
 }
