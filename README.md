@@ -133,6 +133,7 @@
 * [863. 二叉树中所有距离为 K 的结点](seiei/algo/leetcode/863_二叉树中所有距离为K的节点.md)
 * [930. 和相同的二元子数组](seiei/algo/leetcode/930_和相同的二元子数组.md)
 * [981. 基于时间的键值储存](seiei/algo/leetcode/981_基于时间的键值存储.md)
+* [1104. 二叉树寻路](seiei/algo/leetcode/1104_二叉树寻路.md)
 * [1143. 最长公共子序列](seiei/algo/leetcode/1143_最长公共子序列.md)
 * [1239. 串联字符串的最大长度](seiei/algo/leetcode/1239_串联字符串的最大长度.md)
 * [1418. 点菜展示表](seiei/algo/leetcode/1418_点菜展示表.md)
