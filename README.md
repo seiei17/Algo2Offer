@@ -129,6 +129,7 @@
 * [645. 错误的集合](seiei/algo/leetcode/645_错误的集合.md)
 * [671. 二叉树中第二小的节点](seiei/algo/leetcode/671_二叉树中第二小的节点.md)
 * [726. 原子的数量](seiei/algo/leetcode/726_原子的数量.md)
+* [743. 网络延迟时间](seiei/algo/leetcode/743_网络延迟时间.md)
 * [752. 打开转盘锁](seiei/algo/leetcode/752_打开转盘锁.md)
 * [773. 滑动谜题](seiei/algo/leetcode/773_滑动谜题.md)
 * [863. 二叉树中所有距离为 K 的结点](seiei/algo/leetcode/863_二叉树中所有距离为K的节点.md)
@@ -219,6 +220,7 @@
 * [41. 数据流中的中位数](seiei/algo/sword2offer/41_数据流中的中位数.md)
 * [42. 连续子数组的最大和](seiei/algo/sword2offer/42_连续子数组的最大和.md)
 * [46. 把数字翻译成字符串](seiei/algo/sword2offer/46_把数字翻译成字符串.md)
+* [47. 礼物的最大价值](seiei/algo/sword2offer/47_礼物的最大价值.md)
 * [52. 两个链表的第一个公共节点](seiei/algo/sword2offer/52_两个链表的第一个公共节点.md)
 * [53.1. 在排序数组中查找数字 I](seiei/algo/sword2offer/53_1_在排序数组中查找数字I.md)
 
