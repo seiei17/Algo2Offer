@@ -127,6 +127,7 @@
 * [483. 最小好进制](seiei/algo/leetcode/493_最小好进制.md)
 * [560. 和为k的子数组](seiei/algo/leetcode/560_和为K的子数组.md)
 * [581. 最短无序连续子数组](seiei/algo/leetcode/581_最短无序连续子数组.md)
+* [611. 有效三角形的个数](seiei/algo/leetcode/611_有效三角形的个数.md)
 * [645. 错误的集合](seiei/algo/leetcode/645_错误的集合.md)
 * [671. 二叉树中第二小的节点](seiei/algo/leetcode/671_二叉树中第二小的节点.md)
 * [726. 原子的数量](seiei/algo/leetcode/726_原子的数量.md)
@@ -224,6 +225,8 @@
 * [47. 礼物的最大价值](seiei/algo/sword2offer/47_礼物的最大价值.md)
 * [48. 最长不含重复字符的子字符串](seiei/algo/sword2offer/48_最长不含重复字符的子字符串.md)
 * [49. 丑数](seiei/algo/sword2offer/49_丑数.md)
+* [50. 第一个只出现一次的字符](seiei/algo/sword2offer/50_第一个只出现一次的字符.md)
+* [51. 数组中的逆序对](seiei/algo/sword2offer/51_数组中的逆序对.md)
 * [52. 两个链表的第一个公共节点](seiei/algo/sword2offer/52_两个链表的第一个公共节点.md)
 * [53.1. 在排序数组中查找数字 I](seiei/algo/sword2offer/53_1_在排序数组中查找数字I.md)
 
