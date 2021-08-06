@@ -230,4 +230,5 @@
 * [51. 数组中的逆序对](seiei/algo/sword2offer/51_数组中的逆序对.md)
 * [52. 两个链表的第一个公共节点](seiei/algo/sword2offer/52_两个链表的第一个公共节点.md)
 * [53.1. 在排序数组中查找数字 I](seiei/algo/sword2offer/53_1_在排序数组中查找数字I.md)
-
+* [53.2. 0~n-1中缺失的数字](seiei/algo/sword2offer/53_2_0~n-1中缺失的数字.md)
+* [54. 二叉搜索树的第 k 大节点](seiei/algo/sword2offer/54_二叉搜索树的第k大节点.md)
