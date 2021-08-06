@@ -134,6 +134,7 @@
 * [743. 网络延迟时间](seiei/algo/leetcode/743_网络延迟时间.md)
 * [752. 打开转盘锁](seiei/algo/leetcode/752_打开转盘锁.md)
 * [773. 滑动谜题](seiei/algo/leetcode/773_滑动谜题.md)
+* [802. 找到最终的安全状态](seiei/algo/leetcode/802_找到最终的安全状态.md)
 * [863. 二叉树中所有距离为 K 的结点](seiei/algo/leetcode/863_二叉树中所有距离为K的节点.md)
 * [930. 和相同的二元子数组](seiei/algo/leetcode/930_和相同的二元子数组.md)
 * [981. 基于时间的键值储存](seiei/algo/leetcode/981_基于时间的键值存储.md)
