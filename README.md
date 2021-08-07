@@ -124,6 +124,7 @@
 * [401. 二进制手表](seiei/algo/leetcode/401_二进制手表.md)
 * [421.Maximum XOR of Two Numbers in an Array](seiei/algo/专项算法/位运算专题/3_Maximum_XOR_of_Two_Numbers_in_an_Array.md)
 * [451. 根据字符出现频率排序](seiei/algo/leetcode/451_根据字符出现频率排序.md)
+* [457. 环形数组是否存在循环](seiei/algo/leetcode/457_换型数组是否存在循环.md)
 * [483. 最小好进制](seiei/algo/leetcode/493_最小好进制.md)
 * [560. 和为k的子数组](seiei/algo/leetcode/560_和为K的子数组.md)
 * [581. 最短无序连续子数组](seiei/algo/leetcode/581_最短无序连续子数组.md)
@@ -232,3 +233,5 @@
 * [53.1. 在排序数组中查找数字 I](seiei/algo/sword2offer/53_1_在排序数组中查找数字I.md)
 * [53.2. 0~n-1中缺失的数字](seiei/algo/sword2offer/53_2_0~n-1中缺失的数字.md)
 * [54. 二叉搜索树的第 k 大节点](seiei/algo/sword2offer/54_二叉搜索树的第k大节点.md)
+* [55.1. 二叉树的深度](seiei/algo/sword2offer/55_1_二叉树的深度.md)
+* [55.2. 平衡二叉树](seiei/algo/sword2offer/55_2_平衡二叉树.md)
